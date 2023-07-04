@@ -1,0 +1,21 @@
+An execution context is an abstract concept of an environment where the JavaScript code is evaluated and executed. It is created when a JavaScript script starts executing and is destroyed when the script finishes executing.
+
+An execution context has the following properties:
+
+1. Variable object: This object stores all the variables that are declared in the execution context.
+
+2. Scope chain: This is a linked list of variable objects that represents the scope of the execution context. The scope chain is used to determine the value of a variable when it is accessed in the execution context.
+
+3. This keyword: This keyword refers to the object that is currently executing the code. The value of the this keyword is determined by the scope chain.
+
+4. Lexical environment: This is the environment in which the execution context was created. The lexical environment is used to determine the value of variables that are declared outside of the execution context.
+
+Here is a diagram of an execution context:
++---------------------------------------+
+| Execution Context                   |
++---------------------------------------+
+| Variable object                     |
+| Scope chain                         |
+| This keyword                        |
+| Lexical environment                 |
++---------------------------------------+
