@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    height: 35px;
+    width: 100vw;
+    color: white;
+    background-color: black;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header span{
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.header a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 3px;
+    text-decoration:1px  underline dotted;
+    
+}
+.nav-bar{
+    height: 60px;
+    width: 100vw;
+    background-color:#fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 700;
+}
+.nav-bar img{
+width:126px;
+height: 75px;
+margin-right: 150px;
+margin-left: 200px;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: black;
+}
+.nav-bar button{
+    width: 100px;
+    height: 35px;
+    border-radius: 1rem;    
+    font-size: larger;
+    border: 2px solid black;
+}
+.nav-bar button:hover{
+    background-color: yellow;
+    color: red;
+}
+.nav-bar a:hover{
+    color: red;
+}
+.nav-bar a:active{
+    color: rebeccapurple;
+}
+main{
+    height: 65vh;
+    width: 90vw;
+    display: flex;
+    /* background-color: red; */
+    margin-left: 5%;
+    margin-right: 5%;
+    justify-content: center;
+    /* align-items: center; */
+
+}
+main div img{
+    width: 450px;
+    height: 390px;
+}
+.main-content{
+    width: 40%;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 35px;
+    font-size: medium;
+    font-weight: 500;
+}
+.main-img{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    display: inline-block;
+    width: 90px;
+    height: 45px;
+    font-size: large;
+    background-color: yellow;
+    border: 2px black solid;
+    border-radius: 15px ;
+    margin-left: 25%;
+}
+footer{
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 55px;
+    align-items: center;
+
+}
+.foot p{
+    width: 70%;
+    margin-left: 5%;
+
+}
+.btn1{
+
+    margin-left: 180px;
+    border: 5px black solid;
+    border-radius: 1.2rem;
+    height: 40px;
+    width :120px;
+    font-weight:550;
+    
+}
+.fa-regular{
+    /* color: white; */
+    width: 5px;
+    height: 5px;
+    display: flex;
+align-self: center;
+}
+.btn1:hover{
+    background-color: yellow;
+}
+
